@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Sagar Dixit | Portfolio</title>
+	<meta name="description" content="Portfolio of Sagar Dixit - Web Developer and Java Developer." />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<div class="logo">SD</div>
+			<nav class="nav" aria-label="Main navigation">
+				<button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="nav-list">
+					<li><a href="#home" class="nav-link active">Home</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#education" class="nav-link">Education</a></li>
+					<li><a href="#projects" class="nav-link">Projects</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+				<button class="theme-toggle" type="button" aria-label="Toggle color theme">
+					<span class="theme-toggle-icon" aria-hidden="true"></span>
+				</button>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<!-- Hero / Home -->
+		<section id="home" class="section hero" aria-labelledby="home-title">
+			<div class="container hero-inner">
+				<div class="hero-text">
+					<p class="eyebrow">Web Developer · Java Developer</p>
+					<h1 id="home-title">Hi, I'm <span class="accent">Sagar Dixit</span>.</h1>
+					<p class="subtitle">I build clean, performant web experiences and robust Java-based backends.
+					</p>
+					<div class="hero-actions">
+						<a href="#projects" class="btn primary">View Projects</a>
+						
+						<a href="assets/ResumeOnePage.pdf" class="btn ghost btn-download" download>
+							<span>Download Resume</span>
+							<span class="btn-icon-download" aria-hidden="true">⭳</span>
+						</a>
+					</div>
+					<div class="social-links" aria-label="Social links">
+						<!-- Replace href values with your actual profile URLs -->
+						<a href="https://www.linkedin.com/in/sagar-dixit-812186264" class="social-link social-link--linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+							<i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+						</a>
+						<a href="https://wa.me/917988687397" class="social-link social-link--whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+							<i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+						</a>
+						<a href="mailto:sagardixit7130@gmail.com" class="social-link social-link--mail" aria-label="Email">
+							<i class="fa-solid fa-envelope" aria-hidden="true"></i>
+						</a>
+						<a href="https://github.com/SagarDixit7130/" class="social-link social-link--github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+							<i class="fa-brands fa-github" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div class="hero-photo-wrapper">
+					<div class="hero-photo-frame">
+						<!-- Replace src with your actual photo path inside assets/ -->
+						<img src="assets/SagarImage.jpeg" alt="Portrait of Sagar Dixit" class="hero-photo" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- About -->
+		<section id="about" class="section" aria-labelledby="about-title">
+			<div class="container about-grid">
+				<div class="about-main">
+					<header class="section-header">
+						<h2 id="about-title">About Me</h2>
+						<p>A short introduction to who I am as a developer.</p>
+					</header>
+					<p class="about-lead">I'm a web and Java developer who enjoys building reliable, user-focused
+						applications. I like writing clean code, working with modern web technologies, and continuously
+						improving how things are designed and built.</p>
+					<p class="about-body">On the front-end, I work with HTML, CSS, and JavaScript to create responsive,
+						accessible interfaces. On the back-end, I'm comfortable designing REST APIs and writing
+						object-oriented Java code for scalable services. I enjoy learning new tools, exploring best practices,
+						and collaborating with teams to solve real problems.</p>
+					<a href="assets/extendedResume.pdf" class="btn ghost btn-download about-download" download>
+						<span>Download Extended Resume</span>
+						<span class="btn-icon-download" aria-hidden="true">⭳</span>
+					</a>
+				</div>
+
+				<aside class="about-side" aria-label="Key skills and focus areas">
+					<div class="about-card">
+						<h3>Core Skills</h3>
+						<ul>
+							<li>Modern HTML, CSS, and JavaScript</li>
+							<li>Java, OOP, and basic Spring concepts</li>
+							<li>RESTful API design and JSON handling</li>
+							<li>Responsive and minimal UI layouts</li>
+						</ul>
+					</div>
+					<div class="about-card">
+						<h3>What I'm Looking For</h3>
+						<ul>
+							<li>Entry-level or internship roles in web development</li>
+							<li>Java development opportunities and backend projects</li>
+							<li>Teams that value clean code and learning</li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+		</section>
+
+		<!-- Education -->
+		<section id="education" class="section" aria-labelledby="education-title">
+			<div class="container">
+				<header class="section-header">
+					<h2 id="education-title">Education</h2>
+					<p>My academic background in computer science and software development.</p>
+				</header>
+				<div class="timeline">
+					<article class="timeline-item">
+						<div class="timeline-marker"></div>
+						<div class="timeline-content">
+							<h3>Bachelor of Technology in Computer Science</h3>
+							<p class="meta">Guru Gobind Singh Indraprastha University · 2022 – 2026</p>
+							<p>Focused on data structures, algorithms, object-oriented programming in Java, and full-stack
+								web development.</p>
+						</div>
+					</article>
+
+					<article class="timeline-item">
+						<div class="timeline-marker"></div>
+						<div class="timeline-content">
+							<h3>Senior Secondary Education (Science)</h3>
+							<p class="meta">Raval Convent School · 2020 – 2022</p>
+							<p>Studied Physics, Chemistry, Mathematics, and Computer Science with a strong foundation in
+								problem solving.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects" class="section" aria-labelledby="projects-title">
+			<div class="container">
+				<header class="section-header">
+					<h2 id="projects-title">Projects</h2>
+					<p>A selection of demo projects highlighting my skills in web and Java development.</p>
+				</header>
+
+				<div class="projects-grid">
+					<article class="project-card">
+						<h3>TaskFlow Dashboard</h3>
+						<p class="project-meta">React · REST API · Java Spring Boot</p>
+						<p>A responsive task management dashboard with role-based authentication and analytics views,
+							backed by a RESTful Java API.</p>
+						<ul class="project-tags">
+							<li>React</li>
+							<li>Spring Boot</li>
+							<li>PostgreSQL</li>
+						</ul>
+						<div class="project-links">
+							<a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Code</a>
+							<a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live</a>
+						</div>
+					</article>
+
+					<article class="project-card">
+						<h3>Portfolio Generator CLI</h3>
+						<p class="project-meta">Java · CLI · Templates</p>
+						<p>A Java-based command-line tool that generates static portfolio sites from a simple JSON
+							configuration.</p>
+						<ul class="project-tags">
+							<li>Java</li>
+							<li>OOP</li>
+							<li>File I/O</li>
+						</ul>
+						<div class="project-links">
+							<a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Code</a>
+							<a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live</a>
+						</div>
+					</article>
+
+					<article class="project-card">
+						<h3>Minimal Blog Layout</h3>
+						<p class="project-meta">HTML · CSS · JavaScript</p>
+						<p>A clean, typography-focused blog layout with dark mode and smooth scrolling interactions.</p>
+						<ul class="project-tags">
+							<li>Responsive Design</li>
+							<li>Accessibility</li>
+							<li>Animations</li>
+						</ul>
+						<div class="project-links">
+							<a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Code</a>
+							<a href="#" class="project-link" target="_blank" rel="noopener noreferrer">Live</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="section" aria-labelledby="contact-title">
+			<div class="container contact-container">
+				<header class="section-header">
+					<h2 id="contact-title">Contact</h2>
+					<p>Have an opportunity or collaboration in mind? Let's talk.</p>
+				</header>
+
+				<div class="contact-content">
+					<form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="da7518f7-46b7-43e5-8e6c-a491193c3eba">
+						<div class="form-row">
+							<label for="name">Name</label>
+							<input type="text" id="name" name="name" placeholder="Your good name..." required />
+						</div>
+
+						<div class="form-row">
+							<label for="email">Email</label>
+							<input type="email" id="email" name="email" placeholder="Will revert you back here..." required />
+						</div>
+
+						<div class="form-row">
+							<label for="message">Message</label>
+							<textarea id="message" name="message" rows="4" placeholder="Wanna discuss with me? Let's Discuss." required></textarea>
+						</div>
+
+						<button type="submit" class="btn primary full-width">Send Message</button>
+						<p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+					</form>
+
+					<div class="contact-details">
+						<h3>Details</h3>
+						<ul>
+							<li><span>Email</span><a href="mailto:sagardixit7130@gmail.com">sagardixit7130@gmail.com</a></li>
+							<li><span>Call</span><a href="tel:+917988687397">+91 79886 87397</a></li>
+							<li><span>Location</span>Ballabgarh, Faridabad (Open to relocation)</li>
+							<li><span>Roles</span>Web Developer, Java Developer</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<div class="footer-social" aria-label="Social links">
+				<a href="https://www.linkedin.com/in/sagar-dixit-812186264" class="social-link social-link--linkedin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+					<i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+				</a>
+				<a href="https://wa.me/917988687397" class="social-link social-link--whatsapp" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+					<i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+				</a>
+				<a href="mailto:sagardixit7130@gmail.com" class="social-link social-link--mail" aria-label="Email">
+					<i class="fa-solid fa-envelope" aria-hidden="true"></i>
+				</a>
+				<a href="https://github.com/SagarDixit7130/" class="social-link social-link--github" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+					<i class="fa-brands fa-github" aria-hidden="true"></i>
+				</a>
+			</div>
+			<p>© <span id="year"></span> Sagar Dixit. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<div class="modal-overlay" id="contactModalOverlay" aria-hidden="true">
+		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+			<div class="modal-icon" aria-hidden="true"></div>
+			<h2 id="contactModalTitle">Thank you!</h2>
+			<p class="modal-message">Thanks for reaching out. I'll reply to you soon.</p>
+			<button type="button" class="btn primary" id="contactModalOk">Okay</button>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
+
