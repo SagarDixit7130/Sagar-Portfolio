@@ -851,7 +851,7 @@ main {
 }
 
 :root[data-theme="light"] .btn.ghost:hover {
-	background: black;
+	background: white;
 }
 
 :root[data-theme="light"] .about-lead {
@@ -882,7 +882,7 @@ main {
 :root[data-theme="light"] .social-link--linkedin:hover,
 :root[data-theme="light"] .social-link--whatsapp:hover,
 :root[data-theme="light"] .social-link--mail:hover {
-	color: #f9fafb;
+	color: blue;
 }
 
 @media (max-width: 800px) {
